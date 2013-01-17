@@ -133,7 +133,7 @@ function remove_chip(row, col)
     }
     else
     {
-        $card.css('background-image', 'url("img/piece_bg.png")');
+        $card.css('background-color', '#fff');
     }
     $cardtext.show();
 
@@ -278,7 +278,7 @@ function make_card()
         }
         else
         {
-            $(this).css('background-image', 'url("img/piece_hover.png")');
+            $(this).css('background-color', '#fff');
         }
         var cardid =$(this).attr('id');
         $('#' + cardid + ' .card-text').show();
@@ -311,7 +311,7 @@ function make_card()
 
         }
         else {
-            $(this).css('background-image', 'url("img/piece_bg.png")');
+            $(this).css('background-color', '#fff');
         }
 
             

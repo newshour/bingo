@@ -21,8 +21,9 @@ html, body {
 body {
     margin: 0px;
 	padding: 0px;
-    font-family: 'Montserrat', Arial, sans-serif;
+    font-family: 'Open Sans Condensed', Arial, sans-serif;
     word-spacing: 1.5px;
+	font-weight:700;
     }
 #navline {
 
